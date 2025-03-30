@@ -35,7 +35,7 @@ $ LDK_CLASSPATH=log4j-api-2.3.2.jar:log4j-core-2.3.2.jar sbcl
 ```
 
 OpenLDK is available in the [ocicl](https://github.com/ocicl/ocicl)
-system library.  Just run `ocicl install openldk` to download OpenLDK.
+repo.  Just run `ocicl install openldk` to download OpenLDK.
 
 Before using `cl-log4j`, you must first initialize it like so:
 ```
