@@ -61,7 +61,7 @@ mt19937, ghcr.io/ocicl/mt19937@sha256:49c0a25a535cd22212343c67e17635b8e05675ad9c
 multilang-documentation-utils, ghcr.io/ocicl/documentation-utils@sha256:b2a1b3f3bcd1a738af85ae2b0168d408c177661eab6d6bbebb254e394d983f54, documentation-utils-20230511-98630dd/multilang-documentation-utils.asd
 named-readtables, ghcr.io/ocicl/named-readtables@sha256:df0a850fdea09d3b8529cfa1ceba6a6d8b098ca72f813ab5a3999f34d50a6932, named-readtables-20250313-cce01f9/named-readtables.asd
 named-readtables-test, ghcr.io/ocicl/named-readtables@sha256:df0a850fdea09d3b8529cfa1ceba6a6d8b098ca72f813ab5a3999f34d50a6932, named-readtables-20250313-cce01f9/named-readtables-test.asd
-openldk, ghcr.io/ocicl/openldk@sha256:361ef46c892086a7ba52a1d20227ac30ad023c0f04b53fb14130ed741370a2cf, openldk-20250330-9cb93b9/openldk.asd
+openldk, ghcr.io/ocicl/openldk@sha256:85b941b9557b7c5b91bb85f01045fe535c4dce6851fea9ea85f7d997aa2f76e3, openldk-20250330-80af9e3/openldk.asd
 parse-declarations-1.0, ghcr.io/ocicl/parse-declarations-1.0@sha256:9305fa9624205b16fd1fc51cb1cc4282a18e50eee9ac75b66a14f6f2c5df9518, parse-declarations-20240503-549aebb/parse-declarations-1.0.asd
 parse-number, ghcr.io/ocicl/parse-number@sha256:11f3f9f512871e1f96cea6b8260aa3610e34e8fd7272bbcdb210fd3c5dd8025c, parse-number-20240503-cb9e487/parse-number.asd
 pathname-utils, ghcr.io/ocicl/pathname-utils@sha256:03187792ba547601b7509c8b7c3eaab3ad0c39dd1e4cfca748d6999867d897c3, pathname-utils-20250302-3309d65/pathname-utils.asd
