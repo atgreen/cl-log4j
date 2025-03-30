@@ -54,5 +54,5 @@ To log an error message, use:
 The output may look unusual.  There's work to be done. I expect things
 to improve fairly rapidly.
 
-Happy Hacking,
+Happy Hacking,</br>
 Anthony Green
