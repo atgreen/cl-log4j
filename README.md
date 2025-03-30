@@ -51,6 +51,10 @@ To log an error message, use:
 (log4j:log-error "Hello World!")
 ```
 
+The first message logged will trigger more classes to be loaded and
+methods to be compiled (OpenLDK is a JIT compiler).  Subsequent
+logging should be fast.
+
 The output may look unusual.  There's work to be done. I expect things
 to improve fairly rapidly.
 
