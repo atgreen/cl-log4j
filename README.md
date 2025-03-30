@@ -5,7 +5,7 @@
 using [OpenLDK](https://github.com/atgreen/openldk).  The real [Apache
 Log4J](https://logging.apache.org/log4j/2.x/index.html) code is
 executed in-process without any external JVM.  This is possible
-because OpenLDK transpiles Java bytecode into Common Lisp source in
+because OpenLDK transpiles Java bytecode into Common Lisp code in
 memory, ready for compilation and execution by your Lisp runtime
 environment.
 
