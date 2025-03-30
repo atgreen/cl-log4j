@@ -6,4 +6,27 @@
 
 (defpackage #:log4j
   (:use #:cl)
-  (:export :initialize :log-error))
+  (:export :initialize
+           :configure-from-file
+
+           :log-info
+           :log-debug
+           :log-error
+           :log-warn
+           :log-trace
+           :log-fatal
+
+           :info-enabled-p
+           :debug-enabled-p
+           :error-enabled-p
+           :warn-enabled-p
+           :trace-enabled-p
+           :fatal-enabled-p
+
+           :mdc-put
+           :mdc-get
+           :mdc-remove
+           :mdc-clear
+
+           :with-thread-context
+           ))
