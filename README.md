@@ -2,13 +2,18 @@
 ## An OpenLDK wrapper for log4j
 
 `cl-log4j` is an experiment in bringing Java libraries to Common Lisp
-using [OpenLDK](https://github.com/atgreen/openldk).
+using [OpenLDK](https://github.com/atgreen/openldk).  The real [Apache
+Log4J](https://logging.apache.org/log4j/2.x/index.html) code is
+executed in-process without any external JVM.  This is possible
+because OpenLDK transpiles Java bytecode into Common Lisp source in
+memory, ready for compilation and execution by your Lisp runtime
+environment.
 
 Check out [log4cl](https://github.com/sharplispers/log4cl) if you want
 a proper logging system for Common Lisp.  The purpose of this project
 is exercise OpenLDK.
 
-`log4j` is an interesting library for exercising OpenLDK thanks to
+Log4J is an interesting library for exercising OpenLDK thanks to
 extensive use of reflection, dynamic code generation, unsafe methods,
 stack walking, and more.
 
@@ -48,7 +53,6 @@ To log an error message, use:
 
 The output may look unusual.  There's work to be done. I expect things
 to improve fairly rapidly.
-
 
 Happy Hacking,
 Anthony Green
