@@ -8,6 +8,10 @@ Check out [log4cl](https://github.com/sharplispers/log4cl) if you want
 a proper logging system for Common Lisp.  The purpose of this project
 is to experiment with wapping Java libraries with OpenLDK.
 
+`log4j` is an interesting library for exercising OpenLDK thanks to
+extensive use of reflection, dynamic code generation, unsafe methods,
+stalk walking, and more.
+
 The OpenLDK APIs are under very active development and are sure to
 change.  Any feedback would really be appreciated!
 
@@ -39,7 +43,7 @@ over time.
 
 To log an error message, use:
 ```
-(log4j:error "Hello World!")
+(log4j:log-error "Hello World!")
 ```
 
 The output may look unusual.  There's work to be done. I expect things
