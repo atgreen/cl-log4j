@@ -1,5 +1,5 @@
 # cl-log4j
-## An OpenLDK wrapper for log4j
+## A Common Lisp wrapper for log4j using OpenLDK
 
 `cl-log4j` is an experiment in bringing Java libraries to Common Lisp
 using [OpenLDK](https://github.com/atgreen/openldk).  The real [Apache
